@@ -6,6 +6,7 @@
         "node": true
     },
     "parserOptions": {
+        "ecmaVersion": 6,
         "ecmaFeatures": {
             "jsx": true
         },
@@ -16,9 +17,10 @@
         "no-this-before-super": "warn",
         "no-undef": "warn",
         "no-unreachable": "warn",
-        "no-unused-vars": "warn",
+        "no-unused-vars": "off",
         "constructor-super": "warn",
         "valid-typeof": "warn",
         "strict": "off"
-    }
+    },
+    "parser": "babel-eslint"
 }
